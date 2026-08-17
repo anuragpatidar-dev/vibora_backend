@@ -160,7 +160,7 @@ const initSocketIO = (httpServer) => {
           { role: 'LISTENER', seatIndex: null }
         );
 
-        console.log([Mic Demoted] User  moved to audience in Room );
+        // console.log([Mic Demoted] User  moved to audience in Room );
 
         // Broadcast to everyone in the room
         io.to(roomId).emit('mic:demoted', {
