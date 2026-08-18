@@ -122,7 +122,7 @@ const verifyOtpAndLogin = async (req, res) => {
       error: 'SERVER_ERROR',
       message: 'Failed to verify OTP. Please try again.',
     });
-  }
+  } 
 };
 
 /**
